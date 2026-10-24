@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Faiq — Portfolio</title>
+  <meta name="description" content="Portfolio Faiq: projek automasi, aplikasi, dan kerja data.">
+  <style>
+    :root { --bg:#0b0a09; --fg:#f2efe9; --muted:#9a958c; --line:#2a2723; --accent:#c9a96e; }
+    * { box-sizing: border-box; }
+    body { margin:0; background:var(--bg); color:var(--fg); font-family: system-ui, -apple-system, "Segoe UI", sans-serif; line-height:1.6; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+    header.nav { display:flex; justify-content:space-between; align-items:center; padding:20px 0; border-bottom:1px solid var(--line); }
+    header.nav nav a { color:var(--muted); margin-left:20px; font-size:14px; }
+    section { padding:72px 0; border-bottom:1px solid var(--line); }
+    h1 { font-size:clamp(36px,6vw,64px); margin:0 0 16px; line-height:1.1; }
+    h2 { font-size:28px; margin:0 0 20px; }
+    h3 { font-size:20px; margin:0 0 8px; }
+    p { color:var(--muted); margin:0 0 12px; }
+    .tag { display:inline-block; font-size:12px; color:var(--accent); border:1px solid var(--line); padding:2px 10px; border-radius:999px; margin:0 6px 6px 0; }
+    .card { border:1px solid var(--line); border-radius:12px; padding:24px; margin-bottom:20px; }
+    .todo { background:#1c1a16; border:1px dashed var(--accent); color:var(--accent); padding:2px 8px; border-radius:4px; font-size:13px; }
+    .grid { display:grid; gap:20px; grid-template-columns: repeat(auto-fit, minmax(260px,1fr)); }
+    footer { padding:40px 0; color:var(--muted); font-size:14px; }
+  </style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="nav">
+    <strong>FAIQ</strong>
+    <nav>
+      <a href="#about">Tentang</a>
+      <a href="#projects">Projek</a>
+      <a href="#experience">Pengalaman</a>
+      <a href="#skills">Skill</a>
+      <a href="#contact">Hubungi</a>
+    </nav>
+  </header>
+
+  <section id="top">
+    <p>Cyberjaya, Selangor · 2026</p>
+    <h1>Faiq.</h1>
+    <p>Pelajar Computer Science (Cyber Security), UNITEN. Membina aplikasi dan automasi yang boleh digunakan oleh orang sebenar.</p>
+    <p><a href="#projects">Lihat projek ↓</a></p>
+  </section>
+
+  <section id="about">
+    <h2>Tentang</h2>
+    <p>Saya suka membina sesuatu dari awal hingga boleh dijalankan: dari idea, kod, ujian, sampai dokumentasi.</p>
+    <p><span class="todo">TODO: tambah 2-3 ayat tentang fokus kerja kau dan apa yang kau cari sekarang. Tulis sendiri.</span></p>
+  </section>
+
+  <section id="projects">
+    <h2>Projek</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>WildBloom</h3>
+        <p><span class="todo">TODO: satu ayat apa dia buat.</span></p>
+        <p><span class="todo">TODO: masalah yang diselesaikan dan siapa pengguna sebenar (berapa orang, dari mana).</span></p>
+        <p><span class="todo">TODO: stack yang digunakan.</span></p>
+        <p><span class="todo">TODO: bukti (screenshot/GIF, link repo, jumlah test atau pengguna sebenar).</span></p>
+        <p><span class="todo">TODO: apa yang belum siap / limitation.</span></p>
+        <p><span class="tag">TODO stack</span></p>
+      </div>
+
+      <div class="card">
+        <h3>LIAR.KL</h3>
+        <p><span class="todo">TODO: peranan kau dalam projek ini (apa yang kau bina sendiri, apa yang kumpulan buat).</span></p>
+        <p><span class="todo">TODO: bukti dan hasil. Jangan tulis angka yang belum disahkan.</span></p>
+        <p><span class="tag">TODO stack</span></p>
+      </div>
+
+      <div class="card">
+        <h3>Automasi Proses (RPA)</h3>
+        <p><span class="todo">TODO: kerja automasi yang kau buat semasa latihan industri. Tunjuk seni bina dan cara ia berfungsi, tanpa data sebenar atau angka sensitif.</span></p>
+        <p><span class="todo">TODO: sahkan dengan supervisor dulu apa yang boleh didedahkan.</span></p>
+        <p><span class="tag">UiPath</span></p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="experience">
+    <h2>Pengalaman</h2>
+    <div class="card">
+      <h3>Pelatih, MDEC (Malaysia Digital Economy Corporation)</h3>
+      <p>IT Operations &amp; Cyber Security, Cyberjaya</p>
+      <p><span class="todo">TODO: tarikh mula dan tamat. Ringkasan kerja yang kau sendiri boleh pertahankan.</span></p>
+    </div>
+    <div class="card">
+      <h3>Kontrak, Cognitive Consulting</h3>
+      <p><span class="todo">TODO: tarikh, peranan, dan skop kerja. Semak sama ada kontrak masih aktif sebelum tulis.</span></p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skill</h2>
+    <p>
+      <span class="tag">UiPath (RPA)</span>
+      <span class="tag">MS Project</span>
+      <span class="tag">monday.com</span>
+      <span class="tag">.NET MAUI</span>
+      <span class="tag">Visualisasi data</span>
+    </p>
+    <p><span class="todo">TODO: buang skill yang kau tak boleh tunjuk bukti. Lebih baik sedikit tapi boleh dipercayai.</span></p>
+  </section>
+
+  <section id="contact">
+    <h2>Hubungi</h2>
+    <p><span class="todo">TODO: email profesional.</span></p>
+    <p><span class="todo">TODO: link LinkedIn dan GitHub.</span></p>
+    <p><span class="todo">TODO: link resume PDF kalau ada.</span></p>
+  </section>
+
+  <footer>
+    © 2026 Faiq. Dibina dengan HTML biasa.
+  </footer>
+</div>
+
+</body>
+</html>
